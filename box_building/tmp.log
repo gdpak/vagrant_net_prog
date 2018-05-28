@@ -1,0 +1,35 @@
+
+
+
+
+term width 300
+Press any key to continue.
+Press any key to continue.
+Press any key to continue.
+Press any key to continue.
+Press any key to continue.
+[H[J
+    GNU GRUB  version 0.97  (639K lower / 3668928K upper memory)
+
+[m[4;2H+-------------------------------------------------------------------------+[5;2H|[5;76H|[6;2H|[6;76H|[7;2H|[7;76H|[8;2H|[8;76H|[9;2H|[9;76H|[10;2H|[10;76H|[11;2H|[11;76H|[12;2H|[12;76H|[13;2H|[13;76H|[14;2H|[14;76H|[15;2H|[15;76H|[16;2H|[16;76H|[17;2H+-------------------------------------------------------------------------+[m
+      Use the ^ and v keys to select which entry is highlighted.
+      Press enter to boot the selected OS, or 'c' for a command-line.[5;78H [m[7m[5;3H CSR1000v - packages.conf                                                [5;75H[m[m[6;3H CSR1000v - GOLDEN IMAGE                                                 [6;75H[m[m[7;3H                                                                         [7;75H[m[m[8;3H                                                                         [8;75H[m[m[9;3H                                                                         [9;75H[m[m[10;3H                                                                         [10;75H[m[m[11;3H                                                                         [11;75H[m[m[12;3H                                                                         [12;75H[m[m[13;3H                                                                         [13;75H[m[m[14;3H                                                                         [14;75H[m[m[15;3H                                                                         [15;75H[m[m[16;3H                                                                         [16;75H[m[16;78H [5;75H[23;4HThe highlighted entry will be booted automatically in 5 seconds.    [5;75H[23;4H                                                                    [5;75H[H[J  Booting 'CSR1000v - packages.conf'
+
+root (hd0,0)
+ Filesystem type is ext2fs, partition type 0x83
+kernel /packages.conf rw quiet root=/dev/ram console= max_loop=64 VMCONSOLE HAR
+DWARE=virtual SR_BOOT=bootflash:packages.conf
+Calculating SHA-1 hash...done
+SHA-1 hash:
+        calculated   5136c10b:9e0f7d08:8e1fadc9:eaf0fb56:dcdcba7b
+        expected     5136c10b:9e0f7d08:8e1fadc9:eaf0fb56:dcdcba7b
+package header rev 3 structure detected
+Calculating SHA-1 hash...done
+SHA-1 hash:
+        calculated   6beb56de:6f99165:14689120:1b67db39:251b2278
+        expected     6beb56de:6f99165:14689120:1b67db39:251b2278
+Package type:0x7531, flags:0x0
+   [Linux-bzImage, setup=0x3c00, size=0x20df4a4]
+   [isord @ 0x7e392000, 0x1c5d554 bytes]
+
+%IOSXEBOOT-4-BOOT_SRC: (local/local): TarFilePath:
